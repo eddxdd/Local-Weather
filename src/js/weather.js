@@ -23,6 +23,6 @@ $.getJSON(api, function(data){
   console.log(api);
 });
   
-});
+}); // current position
 }
 });
