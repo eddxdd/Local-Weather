@@ -1,0 +1,30 @@
+body {
+  background-color: #16aabb;
+}
+
+.jumbotron {
+  background-color: #16aabb;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+#inputDiv {
+  margin: auto;
+  text-align: center;
+}
+
+input[type="text"] {
+  height: 40px;
+  font-size: 20px;
+}
+
+#submitWeather {
+  height: 40px;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+
+footer {
+  margin-top: 30px;
+}
