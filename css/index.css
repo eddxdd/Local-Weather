@@ -24,6 +24,12 @@ input[type="text"] {
   font-weight: 200;
 }
 
+#show {
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+}
+
 
 footer {
   margin-top: 30px;
