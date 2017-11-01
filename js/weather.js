@@ -23,7 +23,7 @@ $(document).ready(function() {
         }
 
       });
-
+    // Display this error if field is empty
     } else {
       $("#error").html("<div class='alert alert-danger' id='alertError'><a href='#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>Field cannot be empty</div>");
     }
