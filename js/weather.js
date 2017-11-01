@@ -11,7 +11,7 @@ $(document).ready(function() {
 
         url: "https://api.openweathermap.org/data/2.5/weather?q=city" + city + "&units=metric" + "&APPID=b3ee0bc115d56b20f8cfff47c8f1c551",
         type: "GET",
-        dataType: "jsonp"
+        dataType: "jsonp",
         success: function(data) {
 
           var widget = show(data);
