@@ -47,3 +47,11 @@ function show(data) {
           "<h3 class='textSize'><strong>Wind Speed</strong>: " + data.wind.speed + "m/s</h3>" +
           "<h3 class='textSize'><strong>Wind Direction</strong>: " + data.wind.deg + "&deg;</h3>";
 }
+
+
+$(document).ready(function(){
+    $('#city').keypress(function(e){
+      if(e.keyCode==13)
+      $('#submitWeather').click();
+    });
+});
