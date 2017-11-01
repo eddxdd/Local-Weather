@@ -1,3 +1,5 @@
-# Local-Weather
+# Weather App
 
-Work in progress.
+* Product working.
+
+// Utilizes JavaScript, JQuery, API, Ajax, JSONp
