@@ -1,0 +1,42 @@
+<html>
+<head>
+  <meta charset = "utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Eduardo Lemos">
+  <title>Weather App</title>
+  <!-- stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+<!--body start-->
+  <body>
+    <div class="jumbotron">
+        <h1 class="row text-center">Local Weather App</h1>
+      </div>
+
+    <div class="container">
+      <div class="row well">
+        <h2 class="text-center">Enter a city below...</h2>
+        <span id="error"></span>
+      </div>
+
+
+    <!-- Input -->
+    <div class="row form-group form-inline" id="inputDiv">
+      <input type="text" name="city" id="city" class="form-control" placeholder="City Name">
+      <button id="submitWeather" class="btn btn-primary">SEARCH</button>
+  </div>
+
+  <div id="show">
+
+  </div>
+
+    <footer>
+      <p class="row text-center">Designed and developed by<br> Eduardo Lemos</p>
+    </footer>
+  </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./js/weather.js"></script>
+  </body>
+</html>
