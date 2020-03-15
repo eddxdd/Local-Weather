@@ -1,5 +1,6 @@
 # Weather App
 
-* https://eddxdd.github.io/Weather-App/
+https://eddxdd.github.io/js-weather-app/
 
-// JavaScript, JQuery, API, Ajax, JSON
+JavaScript project created with weather API.
+* Legacy project, no longer working. Probably a problem with the API?
